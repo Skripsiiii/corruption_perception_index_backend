@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import 'animate.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.questions-container::-webkit-scrollbar {
+  display: none;
+}
+
+#dimension-container::-webkit-scrollbar{
+  display: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar{
+  display: none;
+}
+
+.sidebar-container {
+  transition: width 3s ease-in-out;
+}

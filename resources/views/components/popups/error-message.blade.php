@@ -1,0 +1,1 @@
+<p class="error-message my-4 w-full px-2 text-center bg-myred-3 text-myred-1"></p>
